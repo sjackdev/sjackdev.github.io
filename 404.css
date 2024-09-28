@@ -16,8 +16,8 @@ body {
 h1 {
     font-size: 8rem;
     margin: 0;
-    color: #ff4500;
-    animation: flicker 1s infinite ease-in-out;
+    color: orangered;
+    animation: flicker 5s infinite ease-in-out;
 }
 
 p {
@@ -26,7 +26,7 @@ p {
 }
 
 a {
-    color: #ffa500;
+    color: orangered;
     text-decoration: none;
 }
 
@@ -40,6 +40,6 @@ a:hover {
     }
 
     50% {
-        opacity: 0.7;
+        opacity: 0;
     }
 }
